@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    font-family: Arial, sans-serif;
+    background: #000000;
+}
+
+.container{
+    display: flex;
+    gap: 3rem;
+    height: 135vh;
+}
+.one{
+    display: flex;
+    background: #0000ff;
+    width: 60%;
+    margin-top: 0rem;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.two{
+    display: flex;
+    background: #0000ff;
+    width: 40%;
+    margin-top: 0rem;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.three{
+    display: flex;
+    background: #0000ff;
+    width: 30%;
+    margin-top: 0rem;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 4rem;
+}
+.four{
+    display: flex;
+    background: #0000ff;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four h1{
+    color: white;
+    font-weight: initial;
+}
+h1{
+    margin-top: 1.5rem;
+}
+#result{
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+header{
+    display: flex;
+    background: #812be2;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+}
+
+input{
+    padding: 0.6rem;
+    background: black;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    gap: 1rem;
+    font-size: 18px;
+}
+li{
+    margin-top: 0.8rem;
+
+}
+#registerDepens{
+    cursor: pointer;
+}
+#gister{
+    cursor: pointer;
+}
+#addi{
+    background: #ff0000;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 1rem;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#addi:hover{
+    opacity: 1;
+}

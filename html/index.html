@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div action="">
+            <div>
+                <input type="reset" id="reset">
+            </div>
+            <div>
+                <input type="text" placeholder="Ajouter une dépense" required minlength="1" maxlength="9"
+                       id="infoDepense">
+                <input type="submit" id="subDep">
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+
+<div class="container">
+    <div class="one">
+        <div>
+            <ul id="testlist">
+                <h1>Calcul des dépenses.</h1>
+                <li>Dépense fixe :</li>
+                <li>Loyer et charges:</li>
+                <li>Remboursement de crédit:</li>
+                <li>Eau/électricité/Gaz:</li>
+                <li>Téléphone/Internet:</li>
+                <li>Assurance Habitation:</li>
+                <li>Assurance véhicules:</li>
+                <li>Mutuelle santé:</li>
+                <li>Frais de garde:</li>
+                <li>Impôt sur le revenu:</li>
+                <li>Impôt locaux:</li>
+                <li>Dépense courant:</li>
+            </ul>
+        </div>
+    </div>
+    <div class="two">
+        <div>
+            <ul>
+                <h1>Calcul des recettes.</h1>
+                <li>Le salaire:</li>
+                <li>Les aides:</li>
+                <li>Les rentre:</li>
+                <li>Autres:</li>
+            </ul>
+        </div>
+    </div>
+    <div class="three">
+        <h1>Épargne.</h1>
+        <input type="number" placeholder="Champs libre" id="libre" min="1" value="0">
+        <input type="submit" value="Tout Enregistrer" id="registerDepens">
+    </div>
+    <div class="four">
+        <h1>Résultat</h1>
+        <input type="submit" value="CALCULER" id="addi">
+        <h3 id="result"></h3>
+    </div>
+</div>
+
+
+<script src="../js/app2.js"></script>
+<script src="../js/app.js"></script>
+</body>
+</html>
